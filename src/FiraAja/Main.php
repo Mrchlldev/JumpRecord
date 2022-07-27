@@ -12,7 +12,7 @@ use pocketmine\player\Player;
 class Main extends PluginBase implements Listener {
 	
 	/** @var Config $dataJump */
-	public $dataJump;
+	public Config $dataJump;
 	/** @var Main */
 	public static $instance;
 	
