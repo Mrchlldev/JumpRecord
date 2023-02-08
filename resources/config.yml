@@ -1,0 +1,10 @@
+# Available provider: yaml, mysql
+provider: yaml
+
+# Don't change this if you are not using
+# MySQL as a provider
+mysql-settings:
+  host: localhost
+  user: root
+  password: yourpassword
+  database: yourdatabase
