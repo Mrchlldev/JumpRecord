@@ -27,6 +27,11 @@ class EventListener implements Listener {
      * @param PlayerJumpEvent $event
      * @return void
      */
+    public function getPlayerJump(Player $player): string{
+		$jump = JumpRecord::getInstance()->getProvider()->getJump($player);
+
+		return $group ?? "No Rank";
+	}
     public function onJump(PlayerJumpEvent $event): void {
         $player = $event->getPlayer();
         JumpRecord::getInstance()->getProvider()->addJump($player);
