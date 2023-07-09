@@ -1,5 +1,5 @@
 name: JumpRecord
 author: FiraAja
 main: FiraAja\JumpRecord\JumpRecord
-api: 4.0.0
-version: 2.0.0
+api: 5.0.0
+version: 2.0.5+dev
